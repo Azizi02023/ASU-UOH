@@ -169,22 +169,41 @@ export default function AnnouncementsBoard() {
           ))}
         </div>
 
-        {/* Notification Subscription Card */}
-        <div className="mt-12 card-elevated bg-gradient-to-br from-teal-50 to-emerald-50 border border-teal-200">
-          <h3 className="heading-md text-teal-700 mb-4">📧 Stay Updated</h3>
+        {/* 12th Grade Equivalence Request Card */}
+        <div className="mt-12 card-elevated bg-gradient-to-br from-emerald-50 to-teal-50 border border-emerald-200">
+          <h3 className="heading-md text-emerald-700 mb-4">🎓 Get 12th Grade Equivalence Certificate</h3>
           <p className="text-slate-700 mb-6">
-            Subscribe to ASU notifications to receive alerts about visa deadlines, NOC processing updates, and new administrative procedures directly to your email.
+            Request your equivalence certificate for 12th grade to facilitate admissions and credential evaluation processes internationally.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <input
-              type="email"
-              placeholder="Enter your email address"
-              className="flex-1 px-4 py-3 border-2 border-slate-300 rounded-lg focus:border-teal-500 focus:outline-none"
-            />
-            <button className="btn-primary whitespace-nowrap">Subscribe</button>
+          <div className="space-y-4">
+            <div>
+              <label className="block text-sm font-semibold text-slate-700 mb-2">Student Name</label>
+              <input
+                type="text"
+                placeholder="Your full name"
+                className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:border-emerald-500 focus:outline-none"
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-semibold text-slate-700 mb-2">Student ID/CNIC</label>
+              <input
+                type="text"
+                placeholder="Your Student ID or CNIC"
+                className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:border-emerald-500 focus:outline-none"
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-semibold text-slate-700 mb-2">Email Address</label>
+              <input
+                type="email"
+                placeholder="Your email address"
+                className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:border-emerald-500 focus:outline-none"
+              />
+            </div>
+            <button className="btn-primary w-full sm:w-auto">Request Equivalence Certificate</button>
           </div>
-          <p className="text-xs text-slate-500 mt-3">
-            We respect your privacy. You can unsubscribe anytime. Max 2 emails per week during visa season.
+          <p className="text-xs text-slate-500 mt-4">
+            <strong>Processing Time:</strong> 3-5 working days after submission. You will receive the certificate via email.
           </p>
         </div>
 
