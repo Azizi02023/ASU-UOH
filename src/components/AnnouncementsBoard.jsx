@@ -169,43 +169,6 @@ export default function AnnouncementsBoard() {
           ))}
         </div>
 
-        {/* 12th Grade Equivalence Request Card */}
-        <div className="mt-12 card-elevated bg-gradient-to-br from-emerald-50 to-teal-50 border border-emerald-200">
-          <h3 className="heading-md text-emerald-700 mb-4">🎓 Get 12th Grade Equivalence Certificate</h3>
-          <p className="text-slate-700 mb-6">
-            Request your equivalence certificate for 12th grade to facilitate admissions and credential evaluation processes internationally.
-          </p>
-          <div className="space-y-4">
-            <div>
-              <label className="block text-sm font-semibold text-slate-700 mb-2">Student Name</label>
-              <input
-                type="text"
-                placeholder="Your full name"
-                className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:border-emerald-500 focus:outline-none"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-semibold text-slate-700 mb-2">Student ID/CNIC</label>
-              <input
-                type="text"
-                placeholder="Your Student ID or CNIC"
-                className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:border-emerald-500 focus:outline-none"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-semibold text-slate-700 mb-2">Email Address</label>
-              <input
-                type="email"
-                placeholder="Your email address"
-                className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:border-emerald-500 focus:outline-none"
-              />
-            </div>
-            <button className="btn-primary w-full sm:w-auto">Request Equivalence Certificate</button>
-          </div>
-          <p className="text-xs text-slate-500 mt-4">
-            <strong>Processing Time:</strong> 3-5 working days after submission. You will receive the certificate via email.
-          </p>
-        </div>
 
         {/* Critical Note */}
         <div className="mt-8 bg-red-50 border-2 border-red-300 rounded-lg p-6">

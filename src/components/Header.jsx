@@ -17,9 +17,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-gradient-to-br from-teal-600 to-emerald-600 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-lg">A</span>
-          </div>
+          <img src="./logo.png" alt="ASU-UOH Logo" className="w-10 h-10 object-contain bg-white rounded-full p-0.5 border border-teal-500" />
           <div className="hidden sm:block">
             <h1 className="text-lg font-bold text-navy-900">ASU-UOH</h1>
             <p className="text-xs text-slate-600">Student Portal</p>

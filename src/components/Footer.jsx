@@ -12,9 +12,7 @@ export default function Footer() {
           {/* About Section */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-teal-500 to-emerald-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">A</span>
-              </div>
+              <img src="./logo.png" alt="ASU-UOH Logo" className="w-8 h-8 object-contain bg-white rounded-full p-0.5" />
               <h3 className="text-lg font-bold">ASU-UOH</h3>
             </div>
             <p className="text-teal-100 text-sm leading-relaxed">
@@ -71,18 +69,30 @@ export default function Footer() {
             <h4 className="font-bold text-white mb-4 text-lg">Support</h4>
             <div className="space-y-3">
               <a
+                href="tel:+923155651859"
+                className="text-teal-200 hover:text-white transition-colors flex items-start gap-2 text-sm"
+              >
+                <Phone className="flex-shrink-0 mt-1" size={16} />
+                +92-315-5651859
+              </a>
+              <a
                 href="mailto:uoh.asu@gmail.com"
                 className="text-teal-200 hover:text-white transition-colors flex items-start gap-2 text-sm"
               >
                 <Mail className="flex-shrink-0 mt-1" size={16} />
-                ASU Email
+                uoh.asu@gmail.com
               </a>
-              <button className="text-teal-200 hover:text-white transition-colors flex items-center gap-2 text-sm">
+              <button className="text-teal-200 hover:text-white transition-colors flex items-center gap-2 text-sm text-left">
                 <span>📋</span> Download Guide (PDF)
               </button>
-              <button className="text-teal-200 hover:text-white transition-colors flex items-center gap-2 text-sm">
+              <a
+                href="https://wa.me/923155651859"
+                target="_blank"
+                rel="noreferrer"
+                className="text-teal-200 hover:text-white transition-colors flex items-center gap-2 text-sm"
+              >
                 <span>💬</span> WhatsApp Support
-              </button>
+              </a>
             </div>
           </div>
         </div>

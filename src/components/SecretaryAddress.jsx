@@ -7,6 +7,7 @@ export default function SecretaryAddress() {
       <div className="max-w-7xl mx-auto">
         {/* Main Hero */}
         <div className="text-center mb-12">
+          <img src="./logo.png" alt="ASU-UOH Logo" className="w-32 h-32 mx-auto mb-6 object-contain bg-white rounded-full p-2 border-4 border-amber-500 shadow-xl animate-fade-in" />
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
             Afghan Student Union
           </h1>
@@ -25,7 +26,7 @@ export default function SecretaryAddress() {
             </h2>
           </div>
           <p className="text-lg leading-relaxed text-teal-50">
-            Welcome to the official ASU-UOH Student Portal. Our mission is to empower international students by demystifying bureaucratic procedures and streamlining compliance documentation. Whether you need an Embassy NOC, University Bonafide Letter, or HEC verification—this portal guides you through each step with clarity and precision.
+            Welcome to the official ASU-UOH Student Portal. Our mission is to empower Afghan students by demystifying bureaucratic procedures and streamlining compliance documentation. Whether you need an Embassy NOC, University Bonafide Letter, or HEC verification—this portal guides you through each step with clarity and precision.
           </p>
           <p className="text-lg leading-relaxed text-teal-50 mt-4">
             Navigating Pakistan's educational and administrative landscape is complex. Missteps can delay your visa, disrupt your studies, or create legal complications. We have consolidated the most critical procedures, document checklists, and submission workflows into one authoritative resource to protect your academic journey.
@@ -36,9 +37,9 @@ export default function SecretaryAddress() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center">
             <BookOpen className="text-amber-400 mx-auto mb-3" size={32} />
-            <h3 className="text-lg font-bold mb-2">3 Core Pathways</h3>
+            <h3 className="text-lg font-bold mb-2">7 Core Pathways</h3>
             <p className="text-teal-100 text-sm">
-              Embassy NOC, Bonafide Letter & HEC NOC processes
+              NOC, Bonafide, HEC, Equivalence, Visa, and more
             </p>
           </div>
           <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 text-center">

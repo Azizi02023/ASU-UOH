@@ -197,10 +197,11 @@ export default function FAQSection() {
             <div className="bg-white rounded-lg p-4 border border-emerald-200">
               <h4 className="font-bold text-navy-800 mb-3">👥 Afghan Student Union</h4>
               <div className="space-y-2 text-sm text-slate-700">
+                <p><strong>Phone:</strong> +92 315 5651859</p>
                 <p><strong>Email:</strong> uoh.asu@gmail.com</p>
                 <p><strong>Events:</strong> Monthly orientation sessions</p>
                 <p><strong>Support:</strong> Peer guidance & community support</p>
-                <p><strong>WhatsApp:</strong> Group inquiries welcome</p>
+                <p><strong>WhatsApp:</strong> <a href="https://wa.me/923155651859" target="_blank" rel="noreferrer" className="text-teal-600 underline">+92 315 5651859</a></p>
               </div>
             </div>
           </div>
