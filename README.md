@@ -186,38 +186,6 @@ npm run deploy
 4. Select "Deploy from a branch" → Choose `main` branch → select `/dist` folder
 5. Save
 
----
-
-## 📁 Project Structure
-
-```
-ASU-UOH/
-├── public/
-│   └── index.html              # Entry point
-├── src/
-│   ├── main.jsx                # React app entry
-│   ├── index.css               # Tailwind + global styles
-│   ├── App.jsx                 # Main app component
-│   └── components/
-│       ├── Header.jsx          # Navigation header
-│       ├── SecretaryAddress.jsx # Hero section
-│       ├── BureaucracyHub.jsx   # Tab navigation
-│       ├── EmbassyNOCPathway.jsx # Pathway 1
-│       ├── BonafideLetterPathway.jsx # Pathway 2
-│       ├── HECNOCPathway.jsx    # Pathway 3
-│       ├── DocumentToolkit.jsx  # Document templates
-│       ├── AnnouncementsBoard.jsx # Deadlines/announcements
-│       ├── FAQSection.jsx       # FAQ accordion
-│       └── Footer.jsx           # Footer with links
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
-└── .gitignore
-```
-
----
-
 ## 🎨 Customization
 
 ### Brand Colors
@@ -255,99 +223,11 @@ Add new items to arrays in:
 Add templates to:
 - `DocumentToolkit.jsx` - `documents` array
 
----
-
-## 🔧 Environment Variables (Optional)
-
-Create `.env.local` for optional configuration:
-```
-VITE_API_URL=https://api.example.com  # For future API integration
-VITE_APP_TITLE=ASU-UOH Student Portal
-```
-
----
-
-## 📱 Mobile Optimization
-
-The application is fully responsive with:
-- Mobile-first design approach
-- Touch-friendly button sizes (48px minimum)
-- Optimized spacing for small screens
-- Collapsible navigation menu
-- Readable font sizes and line heights
-
-Test on actual devices or use browser DevTools:
-- Chrome DevTools → Toggle device toolbar (Ctrl+Shift+M)
-- Test common breakpoints: 320px, 640px, 1024px
-
----
-
-## ♿ Accessibility Features
-
-- **Semantic HTML**: Proper heading hierarchy, list structures
-- **Color Contrast**: WCAG AA compliant contrast ratios
-- **Keyboard Navigation**: All interactive elements keyboard accessible
-- **ARIA Labels**: Appropriate labels for screen readers
-- **Focus Management**: Visible focus indicators for keyboard users
-
----
-
 ## 🚨 Important Notes for Maintainers
-
-### Contact Information
-Verify all contact information is current before deployment:
-- UOH International Student Office: +92-995-616555
-- Afghan Embassy Islamabad: +92-51-2107500
-- Email addresses: iss@uoh.edu.pk, uoh.asu@gmail.com
-
-### Document & Process Updates
-When processes change:
-1. Update relevant pathway component (EmbassyNOCPathway, BonafideLetterPathway, HECNOCPathway)
-2. Update related FAQ entries
-3. Add announcement to AnnouncementsBoard
-4. Update document templates if affected
-5. Test thoroughly before deploying
-
-### Seasonal Considerations
-During visa season (April-August):
-- Increase announcement frequency
-- Add critical deadline notices
-- Update processing time estimates
-- Monitor and update FSQ contact hours if applicable
-
----
 
 ## 📄 License
 
 This project is maintained by the Afghan Student Union at the University of Haripur. Use for educational and informational purposes.
-
----
-
-## 🤝 Contributing
-
-ASU members and contributors can:
-1. Report inaccuracies or outdated information
-2. Suggest new templates or FAQ entries
-3. Improve styling and mobile experience
-4. Add new features or sections
-
-Contact: uoh.asu@gmail.com
-
----
-
-## 📞 Support & Contact
-
-**UOH International Student Office (ISS)**
-- Phone: +92-995-616555
-- Email: iss@uoh.edu.pk
-- Hours: Monday-Friday, 10:00 AM - 3:00 PM
-- Location: ISS Building, UOH Main Campus
-
-**Afghan Student Union**
-- Email: uoh.asu@gmail.com
-- Social: WhatsApp group inquiries welcome
-
----
 
 ## ⚖️ Disclaimer
 
